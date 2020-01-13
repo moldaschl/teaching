@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd558d38-8fc3-463a-ae23-bf2b1883cf54" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WKt6AiSmMcxYfosHykBJzH7P0Q" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.22125" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="at.hakwt" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.KangarooTest">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="at.hakwt.Main" />
+      <module name="Kangaroo" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KangarooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kangaroo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.hakwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.hakwt" />
+      <option name="MAIN_CLASS_NAME" value="at.hakwt.KangarooTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.KangarooTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KangarooTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd558d38-8fc3-463a-ae23-bf2b1883cf54" name="Default Changelist" comment="" />
+      <created>1578909935576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578909935576</updated>
+      <workItem from="1578909937515" duration="4249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2637" y="325" key="#com.intellij.ide.util.MemberChooser" timestamp="1578917147729">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2637" y="325" key="#com.intellij.ide.util.MemberChooser/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578917147729" />
+    <state width="2092" height="382" key="GridCell.Tab.0.bottom" timestamp="1578919127888">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2092" height="382" key="GridCell.Tab.0.bottom/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578919127888" />
+    <state width="2092" height="382" key="GridCell.Tab.0.center" timestamp="1578919127886">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2092" height="382" key="GridCell.Tab.0.center/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578919127886" />
+    <state width="2092" height="382" key="GridCell.Tab.0.left" timestamp="1578919127886">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2092" height="382" key="GridCell.Tab.0.left/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578919127886" />
+    <state width="2092" height="382" key="GridCell.Tab.0.right" timestamp="1578919127887">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2092" height="382" key="GridCell.Tab.0.right/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578919127887" />
+    <state x="2364" y="276" key="SettingsEditor" timestamp="1578917647210">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2364" y="276" key="SettingsEditor/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578917647210" />
+    <state x="2603" y="596" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578917333999">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2603" y="596" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578917333999" />
+    <state x="2541" y="285" width="590" height="615" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578917364955">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2541" y="285" width="590" height="615" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578917364955" />
+  </component>
+</project>
