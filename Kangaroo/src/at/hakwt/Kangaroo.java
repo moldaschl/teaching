@@ -77,8 +77,8 @@ public class Kangaroo {
 
     // - BoxingGlove-Klasse nicht instanzierbar in Main
     // - Datenkapselung - Für unser Beispiel hier macht ein Boxhandschuh ohne
-    //   Känguru keine Sinn, insofern kapseln wir es in der Känguru Klasse
-    //   In einem Onlineshop für Box-Zubehör wäre eine Boxhandschuh einen eigene Klasse
+    //   Känguru keinen Sinn, insofern kapseln wir es in der Känguru Klasse
+    //   In einem Onlineshop für Box-Zubehör wäre eine Boxhandschuh eine eigene Klasse
     private class BoxingGlove {
         private String color;
 

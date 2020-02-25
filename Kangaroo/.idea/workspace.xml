@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd558d38-8fc3-463a-ae23-bf2b1883cf54" name="Default Changelist" comment="" />
+    <list default="true" id="fd558d38-8fc3-463a-ae23-bf2b1883cf54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DrivingACar/src/at/hakwt/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DrivingACar/src/at/hakwt/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/hakwt/Kangaroo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/hakwt/Kangaroo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WKt6AiSmMcxYfosHykBJzH7P0Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,10 +54,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.22125" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -158,6 +174,17 @@
       <option name="presentableId" value="Default" />
       <updated>1578909935576</updated>
       <workItem from="1578909937515" duration="4249000" />
+      <workItem from="1578919515140" duration="887000" />
+      <workItem from="1579180681431" duration="1224000" />
+      <workItem from="1579525348116" duration="3000" />
+      <workItem from="1579711008852" duration="288000" />
+      <workItem from="1579711734110" duration="66000" />
+      <workItem from="1579786406855" duration="215000" />
+      <workItem from="1579786755010" duration="2188000" />
+      <workItem from="1580067189703" duration="245000" />
+      <workItem from="1580223095553" duration="105000" />
+      <workItem from="1580223223817" duration="362000" />
+      <workItem from="1580308684652" duration="48000" />
     </task>
     <servers />
   </component>
@@ -169,6 +196,14 @@
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
     <state x="2637" y="325" key="#com.intellij.ide.util.MemberChooser/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578917147729" />
+    <state x="692" y="406" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579787637539">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state x="692" y="406" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.974@0.23.1680.974" timestamp="1579787637539" />
+    <state x="528" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580223195628">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state x="528" y="245" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.974@0.23.1680.974" timestamp="1580223195628" />
     <state width="2092" height="382" key="GridCell.Tab.0.bottom" timestamp="1578919127888">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
@@ -185,10 +220,11 @@
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
     <state width="2092" height="382" key="GridCell.Tab.0.right/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578919127887" />
-    <state x="2364" y="276" key="SettingsEditor" timestamp="1578917647210">
-      <screen x="1680" y="23" width="2560" height="1417" />
+    <state x="36" y="103" key="SettingsEditor" timestamp="1580223166830">
+      <screen x="0" y="23" width="1680" height="974" />
     </state>
     <state x="2364" y="276" key="SettingsEditor/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1578917647210" />
+    <state x="36" y="103" key="SettingsEditor/0.23.1680.974@0.23.1680.974" timestamp="1580223166830" />
     <state x="2603" y="596" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578917333999">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
