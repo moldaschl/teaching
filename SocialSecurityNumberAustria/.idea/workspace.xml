@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e457f24a-c0a4-4df0-afd7-2c97be6a6ffb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1UqCb2aYXaGfFF0xQnkTM8CWuRm" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.SocialSecurityNumberCheckTest">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="at.hakwt.SocialSecurityNumberCheck" />
+      <module name="SocialSecurityNumberAustria" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialSecurityNumberCheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SocialSecurityNumberAustria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.hakwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.hakwt" />
+      <option name="MAIN_CLASS_NAME" value="at.hakwt.SocialSecurityNumberCheckTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialSecurityNumberCheckTest.checkThatNumberIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SocialSecurityNumberAustria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.hakwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.hakwt" />
+      <option name="MAIN_CLASS_NAME" value="at.hakwt.SocialSecurityNumberCheckTest" />
+      <option name="METHOD_NAME" value="checkThatNumberIsCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialSecurityNumberCheckTest.checkThatNumberTooLongIsNotCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SocialSecurityNumberAustria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.hakwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.hakwt" />
+      <option name="MAIN_CLASS_NAME" value="at.hakwt.SocialSecurityNumberCheckTest" />
+      <option name="METHOD_NAME" value="checkThatNumberTooLongIsNotCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.SocialSecurityNumberCheckTest.checkThatNumberIsCorrect" />
+      <item itemvalue="JUnit.SocialSecurityNumberCheckTest" />
+      <item itemvalue="JUnit.SocialSecurityNumberCheckTest.checkThatNumberTooLongIsNotCorrect" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SocialSecurityNumberCheckTest" />
+        <item itemvalue="JUnit.SocialSecurityNumberCheckTest.checkThatNumberTooLongIsNotCorrect" />
+        <item itemvalue="JUnit.SocialSecurityNumberCheckTest.checkThatNumberIsCorrect" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e457f24a-c0a4-4df0-afd7-2c97be6a6ffb" name="Default Changelist" comment="" />
+      <created>1576074805647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576074805647</updated>
+      <workItem from="1576074807531" duration="3401000" />
+      <workItem from="1576768152345" duration="1336000" />
+      <workItem from="1578575778264" duration="810000" />
+      <workItem from="1578909221233" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="197" key="GridCell.Tab.0.bottom" timestamp="1576775937546">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="2518" height="408" key="GridCell.Tab.0.bottom/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1576077290036" />
+    <state width="1638" height="197" key="GridCell.Tab.0.bottom/0.23.1680.974@0.23.1680.974" timestamp="1576775937546" />
+    <state width="1638" height="197" key="GridCell.Tab.0.center" timestamp="1576775937545">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="2518" height="408" key="GridCell.Tab.0.center/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1576077290034" />
+    <state width="1638" height="197" key="GridCell.Tab.0.center/0.23.1680.974@0.23.1680.974" timestamp="1576775937545" />
+    <state width="1638" height="197" key="GridCell.Tab.0.left" timestamp="1576775937545">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="2518" height="408" key="GridCell.Tab.0.left/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1576077290034" />
+    <state width="1638" height="197" key="GridCell.Tab.0.left/0.23.1680.974@0.23.1680.974" timestamp="1576775937545" />
+    <state width="1638" height="197" key="GridCell.Tab.0.right" timestamp="1576775937546">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state width="2518" height="408" key="GridCell.Tab.0.right/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1576077290035" />
+    <state width="1638" height="197" key="GridCell.Tab.0.right/0.23.1680.974@0.23.1680.974" timestamp="1576775937546" />
+    <state x="2179" y="222" key="SettingsEditor" timestamp="1576076955033">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2179" y="222" key="SettingsEditor/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1576076955033" />
+    <state x="2455" y="505" width="1142" height="328" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576076247223">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2455" y="505" width="1142" height="328" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1576076247223" />
+    <state x="2389" y="354" key="new project wizard" timestamp="1576076083416">
+      <screen x="1680" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2389" y="354" key="new project wizard/0.23.1680.974/1680.23.2560.1417@1680.23.2560.1417" timestamp="1576076083416" />
+  </component>
+</project>
