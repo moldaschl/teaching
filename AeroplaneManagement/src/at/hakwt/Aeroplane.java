@@ -27,11 +27,15 @@ public class Aeroplane {
         return passengers * PASSENGERWEIGHT + tare;
     }
 
-    public void boarding() {
-        if ( currentWeigth() + PASSENGERWEIGHT > maxWeight ) {
-            System.out.println("No boarding possible anymore");
-        } else {
-            passengers++;
+
+    public void boarding(int noOfPassengers) {
+        for (int i = 0; i < noOfPassengers; i++) {
+            if ( currentWeigth() + PASSENGERWEIGHT > maxWeight ) {
+                System.out.println("No boarding possible anymore");
+                return;
+            } else {
+                passengers++;
+            }
         }
     }
 
