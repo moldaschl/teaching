@@ -1,6 +1,12 @@
 package at.hakwt;
 
+import at.hakwt.ui.RaceCanvas;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * @author markus.moldaschl
@@ -9,13 +15,19 @@ import java.util.ArrayList;
 public class Race {
 
     private String name;
-    private ArrayList<RacingSnail> participants;
+    private List<RacingSnail> participants;
     private int distance;
+    private List<ActionListener> actionListeners;
 
     public Race(String name, int distance) {
         this.name = name;
         this.participants = new ArrayList<>();
         this.distance = distance;
+        this.actionListeners = new ArrayList<>();
+    }
+
+    public void register(ActionListener actionListener) {
+        this.actionListeners.add(actionListener);
     }
 
     public void addRacingSnail(RacingSnail snail) {
@@ -35,8 +47,15 @@ public class Race {
         for(RacingSnail snail : participants) {
             snail.crawl();
         }
+        notifyListeners();
+        // participants.forEach(RacingSnail::crawl);
     }
 
+    private void notifyListeners() {
+        for(ActionListener actionListener : actionListeners) {
+            actionListener.actionPerformed(new ActionEvent(this, 1, "some command"));
+        }
+    }
 
     public RacingSnail checkWinner() {
         RacingSnail winner = null;
@@ -55,10 +74,13 @@ public class Race {
         return winner;
     }
 
-    public void startRace() {
+    public void startRace(RaceCanvas canvas) {
         do {
             letCrawl();
         } while (checkWinner() == null );
     }
 
+    public List<RacingSnail> getParticipants() {
+        return Collections.unmodifiableList(participants);
+    }
 }
