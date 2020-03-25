@@ -18,9 +18,9 @@ public class BlackJackGameArrayListBased {
 
     private List<Card> initPacket() {
         List<Card> myPacket = new ArrayList<>();
-        for (int i = 1; i < 5; i++) {
+        for(Colour c : Colour.values() ) {
             for (int j = 1; j < 14; j++) {
-                myPacket.add(new Card(i, j));
+                myPacket.add(new Card(j, c));
             }
         }
         return myPacket;

@@ -15,11 +15,14 @@ public class BlackJackGame {
     public BlackJackGame() {
         packet = new Card[MAX_CARDS];
         int counter = 0;
-        for (int i = 1; i < 5; i++) {
+        for(Colour c : Colour.values() ) {
             for (int j = 1; j < 14; j++) {
-                packet[counter] = new Card(i, j);
+                packet[counter] = new Card(j, c);
+                counter++;
             }
         }
+        cardsInGame = 0;
+
     }
 
     public Card[] getPacket() {

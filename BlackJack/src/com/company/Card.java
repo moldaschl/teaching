@@ -8,27 +8,11 @@ public class Card {
 
     private final int value;
 
-    private final String colour;
+    private final Colour colour;
 
-    public Card(int value, int colourCode) {
+    public Card(int value, Colour c) {
         this.value = value;
-        switch (colourCode) {
-            case 1:
-                this.colour = "Karo";
-                break;
-            case 2:
-                this.colour = "Herz";
-                break;
-            case 3:
-                this.colour = "Pik";
-                break;
-            case 4:
-                this.colour = "Treff";
-                break;
-            default:
-                this.colour = "undefined";
-        }
-
+        this.colour = c;
     }
 
     public int getValue() {
@@ -36,7 +20,7 @@ public class Card {
     }
 
     public String getColour() {
-        return colour;
+        return colour.getName();
     }
 
     @Override

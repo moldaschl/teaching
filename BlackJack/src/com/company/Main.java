@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Card herzAss = new Card(1, 2);
-        Card treffDrei = new Card(1, 4);
+        Card herzAss = new Card(1, Colour.Herz);
+        Card treffDrei = new Card(1, Colour.Pik);
         System.out.println(herzAss.toString());
         System.out.println(treffDrei.toString());
 
