@@ -13,8 +13,12 @@ public class Main {
         race.addRacingSnail(karli);
         //race.letCrawl();
         System.out.println(race.toString());
-        race.startRace();
-        System.out.println(race.checkWinner());
+        //race.startRace();
+        BettingOffice bettingOffice = new BettingOffice(race);
+        bettingOffice.acceptBet("Fritzi", "Markus", 10.0f);
+        bettingOffice.startRace();
+        System.out.println("Gewinnerschnecke: " + race.checkWinner());
+        System.out.println("Wettbüro: " + bettingOffice.toString());
 
     }
 }
