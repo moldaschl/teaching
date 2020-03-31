@@ -1,5 +1,7 @@
 package at.hakwt;
 
+import java.util.Arrays;
+
 /**
  * @author markus.moldaschl
  * @since 06.03.20
@@ -16,15 +18,36 @@ public class Aeroplane {
 
     private final static int PASSENGERWEIGHT = 100;
 
-    public Aeroplane(String id, int tare, long maxWeight) {
+    private int seatsPerRow;
+
+    private int rows;
+
+    private String[] seatReservation;
+
+    private int currentSeatPosition;
+
+    public Aeroplane(String id, int tare, long maxWeight, int seatsPerRow, int rows) {
         this.id = id;
         this.tare = tare;
         this.maxWeight = maxWeight;
         this.passengers = 0;
+        this.seatsPerRow = seatsPerRow;
+        this.rows = rows;
+        this.seatReservation = new String[seatsPerRow * rows];
+        for (int i = 0; i < seatsPerRow * rows; i++) {
+            seatReservation[i] = "";
+        }
+        this.currentSeatPosition = 0;
     }
 
     public long currentWeigth() {
         return passengers * PASSENGERWEIGHT + tare;
+    }
+
+    public String nextSeat(String passengerName) {
+        seatReservation[currentSeatPosition] = passengerName;
+        currentSeatPosition++;
+        return Integer.toString(currentSeatPosition);
     }
 
 
@@ -46,6 +69,10 @@ public class Aeroplane {
                 ", tare=" + tare +
                 ", maxWeight=" + maxWeight +
                 ", passengers=" + passengers +
+                ", seatsPerRow=" + seatsPerRow +
+                ", rows=" + rows +
+                ", seatReservation=" + Arrays.toString(seatReservation) +
+                ", currentSeatPosition=" + currentSeatPosition +
                 '}';
     }
 }
