@@ -19,7 +19,13 @@ public class Ferry {
 
     public void board(Vehicle vehicle){
 
-        if ( currentWeight()+vehicle.getMaxWeight() <= this.maxWeight ) {
+        String vehicleNumber = vehicle.getVehicleNumber();
+        if (Character.isDigit(vehicleNumber.charAt(0))) {
+            System.out.println("Keine gültige Registrierung gefunden");
+            return;
+        }
+
+        if (currentWeight() + vehicle.getMaxWeight() <= this.maxWeight) {
             this.vehicles.add(vehicle);
         } else {
             System.out.println("Maximales Gewicht überschritten!");

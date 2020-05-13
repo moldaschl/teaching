@@ -6,7 +6,12 @@ package net.mmoldaschl;
  */
 public class Motorbike extends MotorVehicle {
 
-    public Motorbike(String vehicleNumber, int tare, int maxWeight, int maxSpeed, int horsePower) {
+    public Motorbike(int vehicleNumber, int tare, int maxWeight, int maxSpeed, int horsePower) {
         super(vehicleNumber, tare, maxWeight, maxSpeed, horsePower);
     }
+
+    public String getVehicleNumber() {
+        return "MB" + vehicleNumber;
+    }
+
 }
