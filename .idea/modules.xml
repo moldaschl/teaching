@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AeroplaneManagement/AeroplaneManagement.iml" filepath="$PROJECT_DIR$/AeroplaneManagement/AeroplaneManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DrivingACar/DrivingACar.iml" filepath="$PROJECT_DIR$/DrivingACar/DrivingACar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloGUI/HelloGUI.iml" filepath="$PROJECT_DIR$/HelloGUI/HelloGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kangaroo/Kangaroo.iml" filepath="$PROJECT_DIR$/Kangaroo/Kangaroo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SnailRace/SnailRace.iml" filepath="$PROJECT_DIR$/SnailRace/SnailRace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocialSecurityNumberAustria/SocialSecurityNumberAustria.iml" filepath="$PROJECT_DIR$/SocialSecurityNumberAustria/SocialSecurityNumberAustria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vehicles/Vehicles.iml" filepath="$PROJECT_DIR$/Vehicles/Vehicles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Weekdays/Weekdays.iml" filepath="$PROJECT_DIR$/Weekdays/Weekdays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlackJack/blackJack.iml" filepath="$PROJECT_DIR$/BlackJack/blackJack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fitnesscenter/fitnesscenter.iml" filepath="$PROJECT_DIR$/fitnesscenter/fitnesscenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/teaching-apr-II.iml" filepath="$PROJECT_DIR$/.idea/teaching-apr-II.iml" />
+    </modules>
+  </component>
+</project>
