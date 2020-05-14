@@ -1,6 +1,7 @@
 package net.mmoldaschl;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * @author markus.moldaschl
@@ -13,8 +14,13 @@ public class MyFrame extends JFrame {
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(300, 300);
-        //add(new JButton("my first button"));
-        add(new JTextField("Editier mich. Ich bin ein JTexfield", 60));
+
+        JPanel panel = new JPanel();
+        panel.add(new JButton("my first button"));
+        panel.add(new JTextField("Editier mich. Ich bin ein JTexfield", 20));
+        add(panel);
+        panel.setLayout(new FlowLayout());
+        pack();
     }
 
 }
