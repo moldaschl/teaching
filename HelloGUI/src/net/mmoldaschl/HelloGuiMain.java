@@ -1,6 +1,6 @@
 package net.mmoldaschl;
 
-public class Main {
+public class HelloGuiMain {
 
     public static void main(String[] args) {
         /*

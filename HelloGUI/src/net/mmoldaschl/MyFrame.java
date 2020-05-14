@@ -14,7 +14,7 @@ public class MyFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(300, 300);
         //add(new JButton("my first button"));
-        add(new JTextField("Editier mich. Ich bin ein JTexfield", 60));
+        add(new JTextField("Editier mich. Ich bin ein JTexfield", 20));
     }
 
 }

@@ -1,7 +1,5 @@
 package at.hakwt;
 
-import at.hakwt.ui.RaceCanvas;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -74,10 +72,10 @@ public class Race {
         return winner;
     }
 
-    public void startRace(RaceCanvas canvas) {
+    public void startRace() {
         do {
             letCrawl();
-        } while (checkWinner() == null );
+        } while (checkWinner() == null);
     }
 
     public List<RacingSnail> getParticipants() {

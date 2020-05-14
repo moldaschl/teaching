@@ -1,6 +1,5 @@
 package at.hakwt;
 
-import at.hakwt.ui.RaceCanvas;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -36,7 +35,7 @@ class RaceTest {
         Race race = new Race("Lauf 1", dist);
         race.addRacingSnail(seppi);
         race.addRacingSnail(karli);
-        race.startRace(new RaceCanvas(race));
+        race.startRace();
 
         RacingSnail winner = race.checkWinner();
         assertNotNull(winner);
