@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AeroplaneManagement/AeroplaneManagement.iml" filepath="$PROJECT_DIR$/AeroplaneManagement/AeroplaneManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/DrivingACar/DrivingACar.iml" filepath="$PROJECT_DIR$/DrivingACar/DrivingACar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Grades-GUI/Grades-GUI.iml" filepath="$PROJECT_DIR$/Grades-GUI/Grades-GUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloGUI/HelloGUI.iml" filepath="$PROJECT_DIR$/HelloGUI/HelloGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kangaroo/Kangaroo.iml" filepath="$PROJECT_DIR$/Kangaroo/Kangaroo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnailRace/SnailRace.iml" filepath="$PROJECT_DIR$/SnailRace/SnailRace.iml" />
