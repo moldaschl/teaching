@@ -5,6 +5,7 @@ import at.hakwt.RacingSnail;
 import at.hakwt.SnailRaceMain;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -24,35 +25,36 @@ public class RaceFrame extends JFrame implements ActionListener {
         this.race = race;
         snails = new ArrayList<>();
 
-        int i = 1;
         for (RacingSnail participant : race.getParticipants()) {
             JLabel snailLabel = new JLabel("");
-            snailLabel.setBounds(xPos, 30 * i, 20, 22);
             snailLabel.setIcon(new ImageIcon(SnailRaceMain.class.getResource("/rennschnecke.png")));
             snails.add(snailLabel);
-            i++;
         }
 
         JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        panel.setLayout(new GridLayout(race.getParticipants().size(), 1));
         for (JLabel snail : snails) {
             panel.add(snail);
         }
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         add(panel);
-        setSize(1000, 400);
+        setSize(1000, race.getParticipants().size() * 50);
         setVisible(true);
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        xPos += 20;
+        int i = 0;
         for (JLabel snail : snails) {
-            snail.setBounds(xPos, 11, 20, 22);
+            snail.setBounds(race.getParticipants().get(i).getDistanceRaced() + xPos, snail.getY(), snail.getWidth(), snail.getHeight());
+            i++;
         }
-        System.out.println("xpos" + xPos);
+        waitABit();
+    }
+
+    private void waitABit() {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(100);
         } catch (InterruptedException interruptedException) {
             interruptedException.printStackTrace();
         }
