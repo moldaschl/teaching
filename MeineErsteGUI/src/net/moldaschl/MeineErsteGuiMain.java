@@ -8,6 +8,7 @@ public class MeineErsteGuiMain {
 
     public static void main(String[] args) {
         new MyFirstGuiFrame();
+        new MyFirstGuiFrameLayoutManager();
     }
 
 }
