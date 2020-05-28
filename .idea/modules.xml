@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/DrivingACar/DrivingACar.iml" filepath="$PROJECT_DIR$/DrivingACar/DrivingACar.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloGUI/HelloGUI.iml" filepath="$PROJECT_DIR$/HelloGUI/HelloGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kangaroo/Kangaroo.iml" filepath="$PROJECT_DIR$/Kangaroo/Kangaroo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MeineErsteGUI/MeineErsteGUI.iml" filepath="$PROJECT_DIR$/MeineErsteGUI/MeineErsteGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/SnailRace/SnailRace.iml" filepath="$PROJECT_DIR$/SnailRace/SnailRace.iml" />
       <module fileurl="file://$PROJECT_DIR$/SocialSecurityNumberAustria/SocialSecurityNumberAustria.iml" filepath="$PROJECT_DIR$/SocialSecurityNumberAustria/SocialSecurityNumberAustria.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vehicles/Vehicles.iml" filepath="$PROJECT_DIR$/Vehicles/Vehicles.iml" />
