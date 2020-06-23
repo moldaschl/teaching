@@ -32,11 +32,13 @@ public class Race {
     }
 
     public void letCrawl() {
+        int i = 0;
         for(RacingSnail snail : participants) {
             snail.crawl();
+            i++;
         }
-    }
 
+    }
 
     public RacingSnail checkWinner() {
         RacingSnail winner = null;
